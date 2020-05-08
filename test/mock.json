@@ -1,0 +1,93 @@
+{
+  "idempotencyKey": "ef77b28d256d8706628dab4316f41bcd8c608d7d52fc688fe8e9d02019fc",
+  "points": [
+    {
+      "doubleValue": 0.02,
+      "duration": "0",
+      "kind": 1,
+      "labels": [
+        {
+          "key": "lightstep.service_name",
+          "stringValue": "ls-trace-js-testing"
+        },
+        {
+          "key": "lightstep.access_token",
+          "stringValue": "123"
+        }
+      ],
+      "metricName": "cpu.user",
+      "start": "2020-04-24T15:27:46.233139751Z"
+    },
+    {
+      "doubleValue": 0.04,
+      "duration": "0",
+      "kind": 1,
+      "labels": [
+        {
+          "key": "lightstep.service_name",
+          "stringValue": "ls-trace-js-testing"
+        },
+        {
+          "key": "lightstep.access_token",
+          "stringValue": "123"
+        }
+      ],
+      "metricName": "cpu.sys",
+      "start": "2020-04-24T15:27:46.233139751Z"
+    },
+    {
+      "doubleValue": 765,
+      "duration": "0",
+      "kind": 2,
+      "labels": [
+        {
+          "key": "lightstep.service_name",
+          "stringValue": "ls-trace-js-testing"
+        },
+        {
+          "key": "lightstep.access_token",
+          "stringValue": "123"
+        }
+      ],
+      "metricName": "mem.available",
+      "start": "2020-04-24T15:27:51.233139751Z"
+    },
+    {
+      "doubleValue": 1024,
+      "duration": "0",
+      "kind": 2,
+      "labels": [
+        {
+          "key": "lightstep.service_name",
+          "stringValue": "ls-trace-js-testing"
+        },
+        {
+          "key": "lightstep.access_token",
+          "stringValue": "123"
+        }
+      ],
+      "metricName": "mem.total",
+      "start": "2020-04-24T15:27:51.233139751Z"
+    }
+  ],
+  "reporter": {
+    "tags": [
+      {
+        "key": "lightstep.component_name",
+        "stringValue": "ls-trace-js-testing"
+      },
+      {
+        "key": "lightstep.hostname",
+        "stringValue": "local.computer"
+      },
+      {
+        "key": "lightstep.reporter_platform",
+        "stringValue": "opentelemetry-js"
+      },
+      {
+        "key": "lightstep.reporter_platform_version",
+        "stringValue": "v12.12.0"
+      }
+    ]
+  }
+}
